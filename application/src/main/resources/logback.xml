@@ -1,0 +1,78 @@
+<configuration>
+    <jmxConfigurator/>
+    <if condition='isNull("logging.baseDir") || property("logging.baseDir").equals("")'>
+        <then>
+            <!-- local configration -->
+            <appender name="MAIN_APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+                <layout class="ch.qos.logback.classic.PatternLayout">
+                    <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} [%X{HCITRACE}] [%X{USERTRACE}] - %msg%n</Pattern>
+                </layout>
+            </appender>
+            <appender name="AUDIT_APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+                <layout class="ch.qos.logback.classic.PatternLayout">
+                    <pattern>%d{HH:mm:ss.SSS} [%X{HCITRACE}] [%X{USERTRACE}] - %msg%n</pattern>
+                </layout>
+            </appender>
+        </then>
+        <else>
+            <!-- server configuration -->
+            <appender name="MAIN_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${logging.baseDir}/app.log</file>
+                <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+                    <!-- rollover daily -->
+                    <fileNamePattern>complaints.log.%d{yyyyMMdd}.%i</fileNamePattern>
+                    <!-- each file should be at most 25MB, keep 60 days worth of history, but at most 2GB -->
+                    <maxFileSize>25MB</maxFileSize>
+                    <maxHistory>60</maxHistory>
+                    <totalSizeCap>2GB</totalSizeCap>
+                </rollingPolicy>
+                <layout class="ch.qos.logback.classic.PatternLayout">
+                    <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} [%X{HCITRACE}] [%X{USERTRACE}] - %msg%n</Pattern>
+                </layout>
+            </appender>
+            <appender name="AUDIT_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${logging.baseDir}/audit.log</file>
+                <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+                    <!-- rollover daily -->
+                    <fileNamePattern>audit.log.%d{yyyyMMdd}.%i</fileNamePattern>
+                    <!-- each file should be at most 25MB, keep 60 days worth of history, but at most 2GB -->
+                    <maxFileSize>25MB</maxFileSize>
+                    <maxHistory>60</maxHistory>
+                    <totalSizeCap>2GB</totalSizeCap>
+                </rollingPolicy>
+                <layout class="ch.qos.logback.classic.PatternLayout">
+                    <pattern>%d{HH:mm:ss.SSS} [%X{HCITRACE}] [%X{USERTRACE}] - %msg%n</pattern>
+                </layout>
+            </appender>
+        </else>
+    </if>
+
+    <logger name="AUDIT" level="debug" additivity="false">
+        <appender-ref ref="AUDIT_APPENDER"/>
+    </logger>
+    <logger name="net.homecredit" level="debug" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <!-- log4jdbc library settings -->
+    <logger name="jdbc.sqlonly" level="error" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <logger name="jdbc.sqltiming" level="info" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <logger name="jdbc.audit" level="error" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <logger name="jdbc.resultset" level="error" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <logger name="jdbc.resultsettable" level="error" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <logger name="jdbc.connection" level="error" additivity="false">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </logger>
+    <root level="info">
+        <appender-ref ref="MAIN_APPENDER"/>
+    </root>
+</configuration>

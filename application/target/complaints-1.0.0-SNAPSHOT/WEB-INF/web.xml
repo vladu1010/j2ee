@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" version="3.0"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <context-param>
+        <param-name>spring.profiles.active</param-name>
+        <param-value>local</param-value>
+    </context-param>
+    <context-param>
+        <param-name>managedDs.jndiName</param-name>
+        <param-value></param-value>
+    </context-param>
+    <context-param>
+        <param-name>logging.baseDir</param-name>
+        <param-value>/var/log/fmw/app/us/hosel/us32d1comp</param-value>
+    </context-param>
+
+
+    <!-- SSO configuration -->
+    <context-param>
+        <param-name>security.realmName</param-name>
+        <param-value>Homer Select Web Services</param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.login.url</param-name>
+        <param-value>https://sso.ussso0.cz.nonprod/opensso/UI/Login</param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.logout.url</param-name>
+        <param-value>https://sso.ussso0.cz.nonprod/opensso/UI/Logout</param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.identity.url</param-name>
+        <param-value>https://sso.ussso0.cz.nonprod/opensso/identity/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.login.goto.port</param-name>
+        <param-value></param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.login.goto.server.name</param-name>
+        <param-value></param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.connection.timeout</param-name>
+        <param-value>20000</param-value>
+    </context-param>
+    <context-param>
+        <param-name>security.sso.server.socket.timeout</param-name>
+        <param-value>10000</param-value>
+    </context-param>
+    <context-param>
+        <param-name>context.root</param-name>
+        <param-value></param-value>
+    </context-param>
+    <context-param>
+        <param-name>config.complain.url</param-name>
+        <param-value>https://complaints.us32d1.cz.nonprod/complaints/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>config.boss.url</param-name>
+        <param-value>https://boss.us32d1.cz.nonprod/boss/</param-value>
+    </context-param>
+
+</web-app>
