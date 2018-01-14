@@ -1,0 +1,51 @@
+<assembly xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+          xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+    <id>web-fatdb</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <dependencySets>
+
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <useProjectArtifact>true</useProjectArtifact>
+            <scope>provided</scope>
+            <unpack>true</unpack>
+        </dependencySet>
+
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <useProjectArtifact>true</useProjectArtifact>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+            <unpackOptions>
+                <excludes>
+                    <exclude>liquibase-db.properties</exclude>
+                    <exclude>liquibase.properties</exclude>
+                    <exclude>assemblies/**</exclude>
+                </excludes>
+            </unpackOptions>
+        </dependencySet>
+
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <outputFileNameMapping>/</outputFileNameMapping>
+            <includes>
+				<include>net.homecredit.comp:complaints-db:*</include>
+            </includes>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+            <unpackOptions>
+                <filtered>true</filtered>
+                <includes>
+                    <include>liquibase.properties</include>
+                </includes>
+            </unpackOptions>
+        </dependencySet>
+
+    </dependencySets>
+
+</assembly>

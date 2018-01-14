@@ -1,0 +1,4 @@
+net\homecredit\comp\dao\BossRoleDaoImpl.class
+net\homecredit\comp\dao\IBossRoleDaoImpl.class
+net\homecredit\comp\dao\BossPriv2RoleDaoImpl.class
+net\homecredit\comp\dao\IBossPriv2RoleDao.class

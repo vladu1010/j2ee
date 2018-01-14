@@ -1,0 +1,53 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="vladut.stoica" id="1">
+        <addUniqueConstraint columnNames="CODE"
+                             constraintName="CODE_CONSTRAINT"
+                             tableName="BOSS_PRIVILEGE"
+                             tablespace="${tbs.smalldata}"/>
+    </changeSet>
+
+    <changeSet author="vladut.stoica" id="2">
+        <addUniqueConstraint columnNames="CODE"
+                             constraintName="CODE_CONSTR"
+                             tableName="BOSS_ROLE"
+                             tablespace="${tbs.smalldata}"/>
+    </changeSet>
+
+    <!-- Creation of BOSS_PRIV2ROLE_FK01 -->
+    <changeSet author="vladut.stoica" id="3">
+
+        <addForeignKeyConstraint baseColumnNames="PRIV_CODE"
+                                 baseTableName="BOSS_PRIV2ROLE"
+                                 constraintName="BOSS_PRIV2ROLE_FK01"
+                                 referencedColumnNames="CODE"
+                                 referencedTableName="BOSS_PRIVILEGE"/>
+
+    </changeSet>
+
+     <!--Creation of BOSS_PRIV2ROLE_FK02-->
+    <changeSet author="vladut.stoica" id="4">
+
+        <addForeignKeyConstraint baseColumnNames="ROLE_CODE"
+                                 baseTableName="BOSS_PRIV2ROLE"
+                                 constraintName="BOSS_PRIV2ROLE_FK02"
+                                 referencedColumnNames="CODE"
+                                 referencedTableName="BOSS_ROLE"/>
+
+    </changeSet>
+
+    <!--Creation of BOSS_DEPT_MAPPING_FK01-->
+
+    <changeSet author="vladut.stoica" id="5">
+
+        <addForeignKeyConstraint baseColumnNames="LDAP_ROLE"
+                                 baseTableName="BOSS_DEPT_MAPPING"
+                                 constraintName="BOSS_DEPT_MAPPING_FK01"
+                                 referencedColumnNames="CODE"
+                                 referencedTableName="BOSS_ROLE"/>
+
+    </changeSet>
+
+</databaseChangeLog>

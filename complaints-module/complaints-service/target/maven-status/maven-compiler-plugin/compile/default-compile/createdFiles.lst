@@ -1,0 +1,4 @@
+net\homecredit\comp\service\BossRoleServiceImpl.class
+net\homecredit\comp\service\IBossRoleService.class
+net\homecredit\comp\service\BossPriv2RoleServiceImpl.class
+net\homecredit\comp\service\IBossPriv2RoleService.class

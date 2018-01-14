@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>net.homecredit.comp</groupId>
+		<artifactId>complaints-module</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>complaints-db</artifactId>
+
+	<name>Complaints - DB</name>
+
+	<properties>
+		<liquibase.dropFirst>false</liquibase.dropFirst>
+		<liquibase.skipRun>false</liquibase.skipRun>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>net.homecredit</groupId>
+			<artifactId>liquibase-ext</artifactId>
+			<version>3.5.1-5</version>
+		</dependency>
+
+		<!-- provided dependencies to include in the fatdb jar -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+
+		<!-- special dependency to fix liquibase's logging issue -->
+		<dependency>
+			<groupId>com.mattbertolini</groupId>
+			<artifactId>liquibase-slf4j</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+
+		<!-- DB -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3.0</version>
+		</dependency>
+
+	</dependencies>
+
+	<profiles>
+
+		<profile>
+			<id>countryId</id>
+			<activation>
+				<property>
+					<name>fresh.id</name>
+				</property>
+			</activation>
+			<properties>
+				<liquibase.contexts.country>t1</liquibase.contexts.country>
+			</properties>
+		</profile>
+	
+		<profile>
+			<id>installFresh</id>
+			<activation>
+				<property>
+					<name>fresh.id</name>
+				</property>
+			</activation>
+			<properties>
+				<liquibase.dropFirst>true</liquibase.dropFirst>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>skipLiquibase</id>
+			<properties>
+				<liquibase.skipRun>true</liquibase.skipRun>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>OracleXE</id>
+			<activation>
+				<property>
+					<name>fresh.id</name>
+				</property>
+			</activation>
+			<properties>
+				<db.driver>oracle.jdbc.OracleDriver</db.driver>
+				<db.url>jdbc:oracle:thin:@localhost:1521:XE</db.url>
+				<db.deploy.user>COMPLAINTS_USER</db.deploy.user>
+				<db.deploy.password>COMPLAINTS_USER</db.deploy.password>
+				<db.schemaName>COMPLAINTS_USER</db.schemaName>
+				<liquibase.contexts>OracleXE</liquibase.contexts>
+			</properties>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.liquibase</groupId>
+						<artifactId>liquibase-maven-plugin</artifactId>
+						<version>3.5.3</version>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+	</profiles>
+
+	<build>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.liquibase</groupId>
+					<artifactId>liquibase-maven-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>run-liquibase-update</id>
+							<phase>process-resources</phase>
+							<goals>
+								<goal>update</goal>
+							</goals>
+							<configuration>
+								<changeLogFile>complaints/install-complaints.xml</changeLogFile>
+								<skip>${liquibase.skipRun}</skip>
+								<dropFirst>${liquibase.dropFirst}</dropFirst>
+								<contexts>${liquibase.contexts},${liquibase.contexts.country}</contexts>
+								<url>${db.url}</url>
+								<driver>${db.driver}</driver>
+								<username>${db.deploy.user}</username>
+								<password>${db.deploy.password}</password>
+								<defaultSchemaName>${db.schemaName}</defaultSchemaName>
+								<logging>INFO</logging>
+								<verbose>true</verbose>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>fatjar-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<descriptors>
+								<descriptor>src/main/assemblies/web-fatdb-assembly.xml</descriptor>
+							</descriptors>
+							<appendAssemblyId>false</appendAssemblyId>
+							<archive>
+								<manifest>
+									<mainClass>liquibase.integration.commandline.Main</mainClass>
+								</manifest>
+							</archive>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,22 @@
+ID,CODE,ROLE_TYPE,DEPARTMENT_ID,DESCRIPTION,ACTIVE_FLAG,CREATED_BY,CREATED_DATE,UPDATED_BY,UPDATED_DATE,VERSION
+1,BOSS_BR_LS_COMP_DP_OPER_US,BOSS_USER,operations,User role from Operation department,1,0,SYSDATE,0,SYSDATE,0
+2,BOSS_BR_LS_COMP_DP_OPER_SU,BOSS_SUPERVISOR,operations,Supervisor role from Operation department,1,0,SYSDATE,0,SYSDATE,0
+3,BOSS_BR_LS_COMP_DP_COLL_US,BOSS_USER,collections,User role from Collections department,1,0,SYSDATE,0,SYSDATE,0
+4,BOSS_BR_LS_COMP_DP_COLL_SU,BOSS_SUPERVISOR,collections,Supervisor role from Collections department,1,0,SYSDATE,0,SYSDATE,0
+5,BOSS_BR_LS_COMP_DP_RISK_US,BOSS_USER,risk,User role from RISK department,1,0,SYSDATE,0,SYSDATE,0
+6,BOSS_BR_LS_COMP_DP_RISK_SU,BOSS_SUPERVISOR,risk,Supervisor role from RISK department,1,0,SYSDATE,0,SYSDATE,0
+7,BOSS_BR_LS_COMP_DP_FRAU_US,BOSS_USER,fraud,User role from Fraud department,1,0,SYSDATE,0,SYSDATE,0
+8,BOSS_BR_LS_COMP_DP_FRAU_SU,BOSS_SUPERVISOR,fraud,Supervisor role from Fraud department,1,0,SYSDATE,0,SYSDATE,0
+9,BOSS_BR_LS_COMP_DP_IT_US,BOSS_USER,it,User role from IT department,1,0,SYSDATE,0,SYSDATE,0
+10,BOSS_BR_LS_COMP_DP_IT_SU,BOSS_SUPERVISOR,it,Supervisor role from IT department,1,0,SYSDATE,0,SYSDATE,0
+11,BOSS_BR_LS_COMP_DP_LEGA_US,BOSS_USER,legal,User role from Legal/Compliance department,1,0,SYSDATE,0,SYSDATE,0
+12,BOSS_BR_LS_COMP_DP_LEGA_SU,BOSS_SUPERVISOR,legal,Supervisor role from Legal/Compliance department,1,0,SYSDATE,0,SYSDATE,0
+13,BOSS_BR_LS_COMP_DP_FINA_US,BOSS_USER,finance,User role from Finance department,1,0,SYSDATE,0,SYSDATE,0
+14,BOSS_BR_LS_COMP_DP_FINA_SU,BOSS_SUPERVISOR,finance,Supervisor role from Finance department,1,0,SYSDATE,0,SYSDATE,0
+15,BOSS_BR_LS_COMP_DP_CUST_US,BOSS_USER,customer_experience,User role from Customer Experience department,1,0,SYSDATE,0,SYSDATE,0
+16,BOSS_BR_LS_COMP_DP_CUST_SU,BOSS_SUPERVISOR,customer_experience,Supervisor role from Customer Experience department,1,0,SYSDATE,0,SYSDATE,0
+17,BOSS_BR_LS_COMP_DP_MAPS_US,BOSS_USER,maps,User role from MAPS department,1,0,SYSDATE,0,SYSDATE,0
+18,BOSS_BR_LS_COMP_DP_MAPS_SU,BOSS_SUPERVISOR,maps,Supervisor role from MAPS department,1,0,SYSDATE,0,SYSDATE,0
+19,BOSS_BR_LS_COMP_DP_ALLI_US,BOSS_USER,alliance_one,User role from AllianceOne department,1,0,SYSDATE,0,SYSDATE,0
+20,BOSS_BR_LS_COMP_DP_MABT_US,BOSS_USER,mabt,User role from MABT department,1,0,SYSDATE,0,SYSDATE,0
+21,BOSS_BR_LS_COMP_DP_FD_US,BOSS_USER,first_data,User role from FD department,1,0,SYSDATE,0,SYSDATE,0

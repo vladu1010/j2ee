@@ -1,0 +1,86 @@
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="vladut.stoica" id="1" runOnChange="true">
+
+        <loadUpdateData tableName="BOSS_PRIVILEGE" schemaName="${database.defaultSchemaName}" separator=","
+                  file="complaints/1.0/base/config/data/boss_privilege_data.csv" primaryKey="ID">
+
+            <column name="ID" type="NUMERIC"/>
+            <column name="CODE" type="STRING"/>
+            <column name="DESCRIPTION" type="STRING"/>
+            <column name="ACTIVE_FLAG" type="NUMERIC"/>
+            <column name="CREATED_BY" type="STRING"/>
+            <column name="CREATED_DATE" type="NUMERIC"/>
+            <column name="UPDATED_BY" type="STRING"/>
+            <column name="UPDATED_DATE" type="NUMERIC"/>
+            <column name="VERSION" type="NUMERIC"/>
+
+        </loadUpdateData>
+
+    </changeSet>
+
+    <changeSet author="vladut.stoica" id="2" runOnChange="true">
+
+        <loadUpdateData tableName="BOSS_ROLE" schemaName="${database.defaultSchemaName}" separator=","
+                  file="complaints/1.0/base/config/data/boss_role_data.csv" primaryKey="ID">
+
+            <column name="ID" type="NUMERIC"/>
+            <column name="CODE" type="STRING"/>
+            <column name="ROLE_TYPE" type="STRING"/>
+            <column name="DEPARTMENT_ID" type="STRING"/>
+            <column name="DESCRIPTION" type="STRING"/>
+            <column name="ACTIVE_FLAG" type="NUMERIC"/>
+            <column name="CREATED_BY" type="STRING"/>
+            <column name="CREATED_DATE" type="NUMERIC"/>
+            <column name="UPDATED_BY" type="STRING"/>
+            <column name="UPDATED_DATE" type="NUMERIC"/>
+            <column name="VERSION" type="NUMERIC"/>
+
+        </loadUpdateData>
+
+    </changeSet>
+
+    <changeSet author="vladut.stoica" id="3" runOnChange="true">
+
+        <loadUpdateData tableName="BOSS_PRIV2ROLE" schemaName="${database.defaultSchemaName}" separator=","
+                  file="complaints/1.0/base/config/data/boss_priv2role_data.csv" primaryKey="ID">
+
+            <column name="ID" type="NUMERIC"/>
+            <column name="PRIV_CODE" type="STRING"/>
+            <column name="ROLE_CODE" type="STRING"/>
+            <column name="ACTIVE_FLAG" type="NUMERIC"/>
+            <column name="CREATED_BY" type="STRING"/>
+            <column name="CREATED_DATE" type="NUMERIC"/>
+            <column name="UPDATED_BY" type="STRING"/>
+            <column name="UPDATED_DATE" type="NUMERIC"/>
+            <column name="VERSION" type="NUMERIC"/>
+
+        </loadUpdateData>
+
+    </changeSet>
+
+    <changeSet author="vladut.stoica" id="4" runOnChange="true">
+
+        <loadUpdateData tableName="BOSS_DEPT_MAPPING" schemaName="${database.defaultSchemaName}" separator=","
+                  file="complaints/1.0/base/config/data/boss_dept_mapping_data.csv" primaryKey="ID">
+
+            <column name="ID" type="NUMERIC"/>
+            <column name="LDAP_ROLE" type="STRING"/>
+            <column name="BOSS_ID" type="STRING"/>
+            <column name="DESCRIPTION" type="STRING"/>
+            <column name="ACTIVE_FLAG" type="NUMERIC"/>
+            <column name="CREATED_BY" type="STRING"/>
+            <column name="CREATED_DATE" type="NUMERIC"/>
+            <column name="UPDATED_BY" type="STRING"/>
+            <column name="UPDATED_DATE" type="NUMERIC"/>
+            <column name="VERSION" type="NUMERIC"/>
+
+        </loadUpdateData>
+
+    </changeSet>
+
+</databaseChangeLog>
+
+
