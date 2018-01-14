@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/application/complaints.iml" filepath="$PROJECT_DIR$/application/complaints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-module/complaints-dao/complaints-dao.iml" filepath="$PROJECT_DIR$/complaints-module/complaints-dao/complaints-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-module/complaints-db/complaints-db.iml" filepath="$PROJECT_DIR$/complaints-module/complaints-db/complaints-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-module/complaints-domain/complaints-domain.iml" filepath="$PROJECT_DIR$/complaints-module/complaints-domain/complaints-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/js/complaints-js.iml" filepath="$PROJECT_DIR$/js/complaints-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-module/complaints-module.iml" filepath="$PROJECT_DIR$/complaints-module/complaints-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-parent.iml" filepath="$PROJECT_DIR$/complaints-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-module/complaints-rest/complaints-rest.iml" filepath="$PROJECT_DIR$/complaints-module/complaints-rest/complaints-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complaints-module/complaints-service/complaints-service.iml" filepath="$PROJECT_DIR$/complaints-module/complaints-service/complaints-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/js/crossroads-js.iml" filepath="$PROJECT_DIR$/js/crossroads-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-api/lib-api.iml" filepath="$PROJECT_DIR$/lib/lib-api/lib-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-logging/lib-logging.iml" filepath="$PROJECT_DIR$/lib/lib-logging/lib-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-monitoring/lib-monitoring.iml" filepath="$PROJECT_DIR$/lib/lib-monitoring/lib-monitoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-persistence/lib-persistence.iml" filepath="$PROJECT_DIR$/lib/lib-persistence/lib-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-security/lib-security.iml" filepath="$PROJECT_DIR$/lib/lib-security/lib-security.iml" />
+    </modules>
+  </component>
+</project>

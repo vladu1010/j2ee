@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.homecredit.cabinet:cabinet-api-commons:3.4.21">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/cabinet/cabinet-api-commons/3.4.21/cabinet-api-commons-3.4.21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/cabinet/cabinet-api-commons/3.4.21/cabinet-api-commons-3.4.21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/cabinet/cabinet-api-commons/3.4.21/cabinet-api-commons-3.4.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
