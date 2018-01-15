@@ -57,8 +57,8 @@ public class InitH2Db implements CommandLineRunner{
         merchantService.save(new Merchant("Mon Doe", "Bucharest", "Preciziei"));
         merchantService.save(new Merchant("Non Doe", "Bucharest", "Preciziei"));
 
-        menuItemService.save(new MenuItem("Home", "/"));
-        menuItemService.save(new MenuItem("Merchant", "/newmerchant"));
-        menuItemService.save(new MenuItem("List Merchants", "/merchants"));
+//        menuItemService.save(new MenuItem("Home", "/"));
+//        menuItemService.save(new MenuItem("User", "/newuser"));
+      //  menuItemService.save(new MenuItem("List Merchants", "/merchants"));
     }
 }

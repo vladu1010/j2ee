@@ -32,12 +32,12 @@ public class MerchantController {
         return "merchant";
     }
 
-    @GetMapping(value = "/merchant", params = "id")
-    public String findOne(@RequestParam(required = false) Optional<Long> id, Model model) {
-        if(id.isPresent())
-            model.addAttribute("merchant", merchantService.findOne(id.get()));
-        return "merchant";
-    }
+//    @GetMapping(value = "/merchant", params = "id")
+//    public String findOne(@RequestParam(required = false) Optional<Long> id, Model model) {
+//        if(id.isPresent())
+//            model.addAttribute("merchant", merchantService.findOne(id.get()));
+//        return "merchant";
+//    }
 
     @GetMapping("/newmerchant")
     public String newMerchant(Model model) {

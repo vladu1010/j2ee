@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layouts/default_layout">
+<head>
+    <title>Merchant List</title>
+    <link rel="stylesheet" type="text/css"
+          href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" th:href="@{/css/login.css}"
+          href="../../static/css/style.css"/>
+    <script th:src="@{/webjars/jquery/1.11.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+    <script th:src="@{/js/app.js}"></script>
+</head>
+<body>
+<div id="content" layout:fragment="content" class="container">
+    <div class="row">
+        <h1>Auctions</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Cantity</th>
+                    <th>Price per item</th>
+                </tr>
+                <tr th:each="auction : ${auctions}">
+                    <td th:text="${auction.name}"></td>
+                    <td th:text="${auction.company}"></td>
+                    <td th:text="${auction.cantity}"></td>
+                    <td th:text="${auction.price}"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-1">
+            <select class="form-control pagination" id="pageSizeSelect">
+                <option th:each="pageSize : ${pageSizes}" th:text="${pageSize}" th:value="${pageSize}"
+                        th:selected="${pageSize} == ${selectedPageSize}"></option>
+            </select>
+        </div>
+        <div th:if="${auctions.totalPages != 1}" class="form-group col-md-11 pagination-centered">
+            <ul class="pagination">
+                <li th:class="${auctions.number == 0} ? disabled">
+                    <a class="pageLink" th:href="@{/auctions(pageSize=${selectedPageSize}, page=1)}">&laquo;</a>
+                </li>
+                <li th:class="${auctions.number == 0} ? disabled">
+                    <a class="pageLink"
+                       th:href="@{/auctions(pageSize=${selectedPageSize}, page=${auctions.number})}">&larr;</a>
+                </li>
+                <li th:class="${auctions.number == (page - 1)} ? 'active pointer-disabled'"
+                    th:each="page : ${#numbers.sequence(pager.startPage, pager.endPage)}">
+                    <a class="pageLink" th:href="@{/auctions(pageSize=${selectedPageSize}, page=${page})}"
+                       th:text="${page}"></a>
+                </li>
+                <li th:class="${auctions.number + 1 == auctions.totalPages} ? disabled">
+                    <a class="pageLink"
+                       th:href="@{/auctions(pageSize=${selectedPageSize}, page=${auctions.number + 2})}">&rarr;</a>
+                </li>
+                <li th:class="${auctions.number + 1 == auctions.totalPages} ? disabled">
+                    <a class="pageLink"
+                       th:href="@{/auctions(pageSize=${selectedPageSize}, page=${auctions.totalPages})}">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

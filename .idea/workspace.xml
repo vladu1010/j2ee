@@ -2,306 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbf69832-66c6-48c8-8e50-7630c341d183" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/LoginController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mattbertolini_liquibase_slf4j_1_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bull_javamelody_javamelody_core_1_59_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_cabinet_cabinet_api_3_4_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_cabinet_cabinet_api_commons_3_4_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_cabinet_cabinet_rest_client_3_4_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_cabinet_cabinet_security_core_3_4_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_commons_functor_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_functor_cache_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_homecredit_liquibase_ext_3_5_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bgee_log4jdbc_log4j2_log4jdbc_log4j2_jdbc4_1_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_envers_5_0_12_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jrobin_jrobin_1_5_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_liquibase_liquibase_core_3_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/complaints.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/java/net/homecredit/comp/web/config/AppInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/java/net/homecredit/comp/web/config/LocalContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/java/net/homecredit/comp/web/config/ManagedContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/java/net/homecredit/comp/web/config/RootConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/resources/configuration.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/resources/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/resources/plantemplate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/webapp/WEB-INF/complaints-web-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/webapp/WEB-INF/weblogic.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/main/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/src/test/java/net/homecredit/comp/Start.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/configuration.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/net/homecredit/comp/web/config/AppInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/net/homecredit/comp/web/config/LocalContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/net/homecredit/comp/web/config/ManagedContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/net/homecredit/comp/web/config/RootConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/classes/plantemplate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/012cf6a10129e2275d79d6adac7f3b02.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/570eb83859dc23dd0eec423a49e147fe.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/configuration.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/net/homecredit/comp/web/config/AppInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/net/homecredit/comp/web/config/LocalContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/net/homecredit/comp/web/config/ManagedContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/net/homecredit/comp/web/config/RootConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/classes/plantemplate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/complaints-web-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/cabinet-api-3.4.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/cabinet-api-commons-3.4.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/cabinet-rest-client-3.4.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/cabinet-security-core-3.4.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/cglib-nodep-2.1_3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-compiler-3.0.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-functor-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/complaints-dao-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/complaints-domain-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/complaints-js-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/complaints-rest-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/complaints-service-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/functor-cache-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.0.12.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.0.12.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-envers-5.0.12.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/httpmime-4.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/janino-3.0.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/javamelody-core-1.59.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/joda-time-2.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/jrobin-1.5.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/lib-api-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/lib-logging-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/lib-monitoring-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/lib-persistence-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/lib-security-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/log4jdbc-log4j2-jdbc4-1.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/ojdbc6-11.2.0.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/WEB-INF/weblogic.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/a37b0c01c0baf1888ca812cc0508f6e2.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/a7c77c10b67dfcd6a99480cd7a483ca6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/app.fe94a1da4db5d9293393.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/app.fe94a1da4db5d9293393.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/e79bfd88537def476913f3ed52f4f4b3.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/style.1c4ece36b7eb01a45f3a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/complaints-1.0.0-SNAPSHOT/style.1c4ece36b7eb01a45f3a.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/test-classes/net/homecredit/comp/Start.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/012cf6a10129e2275d79d6adac7f3b02.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/570eb83859dc23dd0eec423a49e147fe.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/META-INF/maven/net.homecredit.comp/complaints-js/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/META-INF/maven/net.homecredit.comp/complaints-js/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/a37b0c01c0baf1888ca812cc0508f6e2.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/a7c77c10b67dfcd6a99480cd7a483ca6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/app.fe94a1da4db5d9293393.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/app.fe94a1da4db5d9293393.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/e79bfd88537def476913f3ed52f4f4b3.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/style.1c4ece36b7eb01a45f3a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/target/war/work/net.homecredit.comp/complaints-js/style.1c4ece36b7eb01a45f3a.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/complaints-dao.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/src/main/java/net/homecredit/comp/dao/BossPriv2RoleDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/src/main/java/net/homecredit/comp/dao/BossRoleDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/src/main/java/net/homecredit/comp/dao/IBossPriv2RoleDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/src/main/java/net/homecredit/comp/dao/IBossRoleDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/classes/net/homecredit/comp/dao/BossPriv2RoleDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/classes/net/homecredit/comp/dao/BossRoleDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/classes/net/homecredit/comp/dao/IBossPriv2RoleDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/classes/net/homecredit/comp/dao/IBossRoleDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/complaints-dao-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/complaints-db.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/assemblies/web-fatdb-assembly.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/config/changesets/boss_tables_data.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/config/data/boss_dept_mapping_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/config/data/boss_priv2role_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/config/data/boss_privilege_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/config/data/boss_role_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/fk_constraints/boss_tables_fk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/include-base.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/sequences/complaints_seq.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/synonym/complaints_synonym.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/synonym/complaints_synonym.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/tables/boss_dept_mapping_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/tables/boss_priv2role_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/tables/boss_privilege_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/tables/boss_role_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/base/tables/complaint_user_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/1.0/include-version.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/include-complaints.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/src/main/resources/complaints/install-complaints.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/archive-tmp/complaints-db-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/config/changesets/boss_tables_data.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/config/data/boss_dept_mapping_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/config/data/boss_priv2role_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/config/data/boss_privilege_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/config/data/boss_role_data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/fk_constraints/boss_tables_fk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/include-base.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/sequences/complaints_seq.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/synonym/complaints_synonym.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/synonym/complaints_synonym.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/tables/boss_dept_mapping_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/tables/boss_priv2role_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/tables/boss_privilege_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/tables/boss_role_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/base/tables/complaint_user_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/1.0/include-version.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/include-complaints.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/classes/complaints/install-complaints.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/complaints-db-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-db/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/complaints-domain.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/src/main/java/net/homecredit/comp/domain/Priv2Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/src/main/java/net/homecredit/comp/domain/Privilege.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/src/main/java/net/homecredit/comp/domain/Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/classes/net/homecredit/comp/domain/Priv2Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/classes/net/homecredit/comp/domain/Privilege.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/classes/net/homecredit/comp/domain/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/complaints-domain-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-module.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/complaints-rest.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/src/main/java/net/homecredit/comp/dto/ConfigDto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/src/main/java/net/homecredit/comp/dto/RoleDto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/src/main/java/net/homecredit/comp/dto/UrlDto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/src/main/java/net/homecredit/comp/rest/BossPrivilegeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/src/main/java/net/homecredit/comp/rest/ConfigController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/dto/ConfigDto$ConfigDtoBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/dto/ConfigDto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/dto/RoleDto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/dto/UrlDto$UrlDtoBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/dto/UrlDto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/rest/BossPrivilegeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/classes/net/homecredit/comp/rest/ConfigController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/complaints-rest-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/complaints-service.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/src/main/java/net/homecredit/comp/service/BossPriv2RoleServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/src/main/java/net/homecredit/comp/service/BossRoleServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/src/main/java/net/homecredit/comp/service/IBossPriv2RoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/src/main/java/net/homecredit/comp/service/IBossRoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/classes/net/homecredit/comp/service/BossPriv2RoleServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/classes/net/homecredit/comp/service/BossRoleServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/classes/net/homecredit/comp/service/IBossPriv2RoleService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/classes/net/homecredit/comp/service/IBossRoleService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/complaints-service-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/complaints-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/complaints-module/pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/AuctionController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/AuctionRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/UserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Auction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/AuctionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IAuctionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/auctions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_auction.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/controller/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/new_merchant.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/UserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/templates/new_merchant.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/config/InitH2Db.class" afterPath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/config/InitH2Db.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/controller/MerchantController.class" afterPath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/controller/MerchantController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/controller/RootController.class" afterPath="$PROJECT_DIR$/target/classes/ro/stoicaVlad/Dreamcar/controller/RootController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/InitH2Db.java" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/InitH2Db.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/RootController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/RootController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/default_layout.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/default_layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/home.html" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/layouts/default_layout.html" afterPath="$PROJECT_DIR$/target/classes/templates/layouts/default_layout.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -316,90 +49,122 @@
       <file leaf-file-name="MerchantController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="30" column="16" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/LoginController.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/WebMvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringSecurityConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/SpringSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="413">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <marker date="1516002470829" expanded="true" signature="1616:1818" ph="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MerchantService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/MerchantService.java">
+      <file leaf-file-name="AuctionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/AuctionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="679">
+              <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merchants.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/merchants.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/RootController.java">
+      <file leaf-file-name="auctions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/auctions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="498">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitH2Db.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/InitH2Db.java">
+      <file leaf-file-name="AuctionService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/AuctionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-644">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="378">
+              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_auction.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/new_auction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuItemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/MenuItemService.java">
+      <file leaf-file-name="Auction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Auction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="679">
+              <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <file leaf-file-name="AuctionRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/AuctionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="147">
+              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaRepository.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -410,16 +175,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>run</find>
-      <find>InitH2Db</find>
-      <find>addInterceptors</find>
-      <find>merchants</find>
       <find>pageSizes</find>
       <find>ecurity.basic.</find>
       <find>thymeleaf</find>
@@ -438,6 +200,18 @@
       <find>invalid user</find>
       <find>param.error</find>
       <find>configureGlobal</find>
+      <find>andrei</find>
+      <find>home cred</find>
+      <find>8</find>
+      <find>List mer</find>
+      <find>list</find>
+      <find>inith</find>
+      <find>something c</find>
+      <find>.png</find>
+      <find>logged</find>
+      <find>isAuthenticated</find>
+      <find>logout</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -452,13 +226,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ro/andreipietrusel/thymeleafplayground/config/InitH2Db.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/src/main/java/ro/andreipietrusel/thymeleafplayground/domain/Pager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/andreipietrusel/thymeleafplayground/ThymeleafPlaygroundApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/andreipietrusel/thymeleafplayground/DreamcarApp.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/RootController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/layouts/default_layout.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/new_merchant.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/InitH2Db.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/AuctionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IAuctionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/AuctionService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/AuctionController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/new_auction.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/auctions.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Auction.java" />
       </list>
     </option>
   </component>
@@ -598,6 +392,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crossroads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crossroads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -769,7 +581,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45325023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22886422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -821,124 +633,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/RootController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/DreamcarApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/stoicaVlad/Dreamcar/DreamcarAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layouts/default_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar!/org/springframework/boot/CommandLineRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/stoicaVlad/Dreamcar/DreamcarAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -981,22 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/AppAccessDeniedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Merchant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1004,74 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/CustomHandlerInterceptorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/MerchantRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IMenuItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IMerchantService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/merchants.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Pager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/MenuItemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,26 +697,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/DreamcarApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/hc_logo_sheet.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1211">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Pager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1115,110 +744,320 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layouts/default_layout.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Merchant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="-5">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/DreamcarApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IMenuItemService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/InitH2Db.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/MenuItemService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IMerchantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/MerchantRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="7" column="74" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/MenuItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/MerchantService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="84">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="0" column="2637" lean-forward="false" selection-start-line="0" selection-start-column="2637" selection-end-line="0" selection-end-column="2637" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/RootController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/AppAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/CustomHandlerInterceptorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        <state relative-caret-position="273">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/SpringSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="350">
+          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layouts/default_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/config/InitH2Db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="60" column="65" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="60" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <marker date="1516002470829" expanded="true" signature="1616:1818" ph="{...}" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/MenuItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/IAuctionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/new_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/merchants.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/domain/Auction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/new_auction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/auctions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/service/AuctionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/MerchantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/controller/AuctionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/stoicaVlad/Dreamcar/dao/AuctionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

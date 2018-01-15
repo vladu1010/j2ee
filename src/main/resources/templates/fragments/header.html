@@ -8,14 +8,9 @@
 <body>
 <div id="header" th:fragment="header">
     <div id="header-menu" class="pattern">
-        <div id="header-logo">
-            <h1 id="logo" class="logo">
-                <a href="#"></a>
-            </h1>
-        </div>
         <div id="header-top">
                <span>
-               <span class="application-name">HC Thymeleaf Template</span>
+               <span class="application-name">Dreamcar</span>
                <span class="application-version">v.0.1</span>
                </span>
             <div sec:authorize="isAuthenticated()" class="logout">
@@ -46,6 +41,20 @@
                         <a th:href="@{${menuItem.link}}" th:text="${menuItem.title}"></a>
                     </li>
                 </ul>
+            </div>
+            <div class="logout">
+                <a href="#" th:href="@{/}">
+                    Home
+                </a>
+                <a href="#" th:href="@{/newuser}" sec:authorize="!hasRole('ROLE_ADMIN')">
+                    User
+                </a>
+                <a href="#" th:href="@{/auction}" sec:authorize="hasRole('ROLE_ADMIN')">
+                    New Auction
+                </a>
+                <a href="#" th:href="@{/auctions}" sec:authorize="hasRole('ROLE_ADMIN')">
+                    List auctions
+                </a>
             </div>
             <div class="user-inbox">
             </div>
