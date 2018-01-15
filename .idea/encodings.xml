@@ -2,19 +2,5 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/application" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/complaints-module" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/complaints-module/complaints-dao" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/complaints-module/complaints-db" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/complaints-module/complaints-domain" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/complaints-module/complaints-rest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/complaints-module/complaints-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/lib-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/lib-logging" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/lib-monitoring" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/lib-persistence" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/lib-security" charset="UTF-8" />
   </component>
 </project>

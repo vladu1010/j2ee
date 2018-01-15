@@ -1,7 +1,0 @@
-net\homecredit\comp\rest\ConfigController.class
-net\homecredit\comp\dto\UrlDto.class
-net\homecredit\comp\dto\ConfigDto.class
-net\homecredit\comp\dto\RoleDto.class
-net\homecredit\comp\rest\BossPrivilegeController.class
-net\homecredit\comp\dto\ConfigDto$ConfigDtoBuilder.class
-net\homecredit\comp\dto\UrlDto$UrlDtoBuilder.class

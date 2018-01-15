@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layouts/default_layout">
+<head>
+    <title>New Merchant</title>
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+<div id="content" layout:fragment="content">
+    <h3>Add new merchant</h3>
+    <form action="#" th:action="@{/newmerchant}" th:object="${merchant}" method="post">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+                <label>Name: </label>
+                <input type="text" th:field="*{name}" class="form-control input-md"/>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+                <label>City: </label>
+                <input type="text" th:field="*{city}" class="form-control input-md"/>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+                <label>Street: </label>
+                <input type="text" th:field="*{street}" class="form-control input-md"/>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+                <label></label>
+                <input type="submit" class="btn btn-md btn-info btn-block" value="Save" />
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

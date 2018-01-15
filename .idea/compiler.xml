@@ -6,52 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="complaints" />
-        <module name="complaints-dao" />
-        <module name="complaints-db" />
-        <module name="complaints-domain" />
-        <module name="complaints-js" />
-        <module name="complaints-rest" />
-        <module name="complaints-service" />
-        <module name="crossroads (1)" />
-        <module name="crossroads-db" />
-        <module name="crossroads-js" />
-        <module name="crossroads-rest" />
-        <module name="lib-api" />
-        <module name="lib-logging" />
-        <module name="lib-monitoring" />
-        <module name="lib-persistence" />
-        <module name="lib-security" />
-        <module name="mcd-gui" />
+        <module name="thymeleaf-playground" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="complaints" target="1.8" />
-      <module name="complaints-dao" target="1.8" />
-      <module name="complaints-db" target="1.8" />
-      <module name="complaints-domain" target="1.8" />
-      <module name="complaints-js" target="1.8" />
-      <module name="complaints-module" target="1.5" />
-      <module name="complaints-openam" target="1.8" />
-      <module name="complaints-parent" target="1.5" />
-      <module name="complaints-rest" target="1.8" />
-      <module name="complaints-service" target="1.8" />
-      <module name="crossroads" target="1.8" />
-      <module name="crossroads (1)" target="1.8" />
-      <module name="crossroads-dao" target="1.8" />
-      <module name="crossroads-db" target="1.8" />
-      <module name="crossroads-domain" target="1.8" />
-      <module name="crossroads-js" target="1.8" />
-      <module name="crossroads-module" target="1.8" />
-      <module name="crossroads-rest" target="1.8" />
-      <module name="crossroads-service" target="1.8" />
-      <module name="lib" target="1.5" />
-      <module name="lib-api" target="1.8" />
-      <module name="lib-logging" target="1.8" />
-      <module name="lib-monitoring" target="1.8" />
-      <module name="lib-persistence" target="1.8" />
-      <module name="lib-security" target="1.8" />
-      <module name="mcd-gui" target="1.8" />
+      <module name="thymeleaf-playground" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
