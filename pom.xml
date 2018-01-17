@@ -80,6 +80,12 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.36</version><!--$NO-MVN-MAN-VER$ -->
+        </dependency>
     </dependencies>
 
     <build>
@@ -98,4 +104,19 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>env-dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <filters>
+                    <filter>src/main/filters/development.properties</filter>
+                </filters>
+            </build>
+        </profile>
+    </profiles>
+
 </project>

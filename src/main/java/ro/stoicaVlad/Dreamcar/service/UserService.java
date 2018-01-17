@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 import ro.stoicaVlad.Dreamcar.dao.UserRepository;
 import ro.stoicaVlad.Dreamcar.domain.User;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 public class UserService implements IUserService {
 
@@ -26,5 +29,11 @@ public class UserService implements IUserService {
     @Override
     public Page<User> findAllPageable(Pageable pageable) {
         return userRepository.findAll(pageable);
+    }
+
+    public List<User> listUsers() {
+        List<User> users = userRepository.findAll();
+
+        return users;
     }
 }

@@ -1,27 +1,32 @@
 package ro.stoicaVlad.Dreamcar.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+
+import static javax.persistence.GenerationType.IDENTITY;
 
 @Entity
+@Table(name="users")
 public class User {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = IDENTITY)
+    @Column(name = "user_id", unique = true, nullable = false)
     private Long id;
-    private String name;
+    @Column(name = "username", nullable = false, length = 45)
+    private String username;
+    @Column(name = "password", nullable = false, length = 60)
     private String password;
-    private String company;
+    @Column(name = "email")
+    private String email;
 
     public User () {
 
     }
 
-    public User (String name, String password, String company) {
-        this.name = name;
+    public User (String username, String password, String email) {
+        this.username = username;
         this.password = password;
-        this.company = company;
+        this.email = email;
     }
 
     public String getPassword() {
@@ -32,12 +37,12 @@ public class User {
         this.password = password;
     }
 
-    public String getCompany() {
-        return company;
+    public String getEmail() {
+        return email;
     }
 
-    public void setCompany(String company) {
-        this.company = company;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Long getId() {
@@ -49,10 +54,10 @@ public class User {
     }
 
     public String getName() {
-        return name;
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String username) {
+        this.username = username;
     }
 }

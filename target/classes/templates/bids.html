@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.w3.org/1999/xhtml"
+      layout:decorator="layouts/default_layout">
+<head>
+    <title>Merchant List</title>
+    <link rel="stylesheet" type="text/css"
+          href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" th:href="@{/css/login.css}"
+          href="../../static/css/style.css"/>
+    <script th:src="@{/webjars/jquery/1.11.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+    <script th:src="@{/js/app.js}"></script>
+</head>
+<body>
+<div id="content" layout:fragment="content" class="container">
+    <form action="#" th:action="@{/cancel_bid}" th:object="${offer}" method="post">
+        <div class="row">
+            <h1>Bids</h1>
+        </div>
+        <div class="row">
+            <div id="bids" class="col-md-12">
+                <table class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Cantity</th>
+                        <th>Price per item</th>
+                    </tr>
+                    <tr th:each="offer : ${offers}">
+                        <td th:text="${offer.item}" sec:authorize="!hasRole('ROLE_ADMIN')"></td>
+                        <td sec:authorize="hasRole('ROLE_ADMIN')">
+                            <input type="radio"
+                                   th:field="*{item}"
+                                   th:value="${offer.item}" class="form-control input-md"/>
+                            <label
+                                    th:for="${#ids.prev('item')}"
+                                    th:text="${offer.item}" class="form-control input-md"></label>
+                        </td>
+                        <td th:text="${offer.name}"></td>
+                        <td th:text="${offer.cantity}"></td>
+                        <td th:text="${offer.price}"></td>
+                    </tr>
+                    <button sec:authorize="hasRole('ROLE_ADMIN')" type="submit">
+                        Cancel Auction
+                    </button>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,400 @@
+use j2ee;
+-- insert LINKS
+
+--INSERT INTO menu_item(link,title)
+--    SELECT '/newcandidate','New Candidate'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM menu_item WHERE menu_item.title='New Candidate');
+--
+---- insert roles
+--INSERT INTO user_roles(role,username)
+--    SELECT 'ROLE_ADMIN', 1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM user_roles WHERE user_roles.role='ROLE_ADMIN');
+--
+---- insert gender
+--INSERT INTO gender(value)
+--    SELECT 'Male'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM gender WHERE gender.value='Male');
+--INSERT INTO gender(value)
+--    SELECT 'Female'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM gender WHERE gender.value='Female');
+--
+---- insert level
+--INSERT INTO level(value)
+--    SELECT 13
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=13);
+--INSERT INTO level(value)
+--    SELECT 12
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=12);
+--INSERT INTO level(value)
+--    SELECT 11
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=11);
+--INSERT INTO level(value)
+--    SELECT 10
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=10);
+--INSERT INTO level(value)
+--    SELECT 9
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=9);
+--INSERT INTO level(value)
+--    SELECT 8
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=8);
+--INSERT INTO level(value)
+--    SELECT 7
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM level WHERE level.value=7);
+--
+---- insert platform
+--INSERT INTO platform(value)
+--    SELECT 'Microsoft'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Microsoft');
+--INSERT INTO platform(value)
+--    SELECT 'Advanced Technology & Architecture'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Advanced Technology & Architecture');
+--INSERT INTO platform(value)
+--    SELECT 'Business Integration'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Business Integration');
+--INSERT INTO platform(value)
+--    SELECT 'Digital'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Digital');
+--INSERT INTO platform(value)
+--    SELECT 'Oracle'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Oracle');
+--INSERT INTO platform(value)
+--    SELECT 'Outsourcing Excellence'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Outsourcing Excellence');
+--INSERT INTO platform(value)
+--    SELECT 'Program, Project and Service Management'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Program, Project and Service Management');
+--INSERT INTO platform(value)
+--    SELECT 'SAP'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='SAP');
+--INSERT INTO platform(value)
+--    SELECT 'Testing'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Testing');
+--INSERT INTO platform(value)
+--    SELECT 'Cloud First & Emerging Platforms'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM platform WHERE platform.value='Cloud First & Emerging Platforms');
+--
+--INSERT INTO domain(value)
+--    SELECT 'DevOps'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='DevOps');
+--INSERT INTO domain(value)
+--    SELECT 'Java'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Java');
+--INSERT INTO domain(value)
+--    SELECT 'EAI'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='EAI');
+--INSERT INTO domain(value)
+--    SELECT 'Business Analysis'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Business Analysis');
+--INSERT INTO domain(value)
+--    SELECT 'Interactive'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Interactive');
+--INSERT INTO domain(value)
+--    SELECT 'Analytics Delivery'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Analytics Delivery');
+--INSERT INTO domain(value)
+--    SELECT 'MS CRM'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='MS CRM');
+--INSERT INTO domain(value)
+--    SELECT 'Automation'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Automation');
+--INSERT INTO domain(value)
+--    SELECT 'AppDev'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='AppDev');
+--INSERT INTO domain(value)
+--    SELECT 'MS IO'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='MS IO');
+--INSERT INTO domain(value)
+--    SELECT 'OraDev'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='OraDev');
+--INSERT INTO domain(value)
+--    SELECT 'Biling'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Biling');
+--INSERT INTO domain(value)
+--    SELECT 'Siebel'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Siebel');
+--INSERT INTO domain(value)
+--    SELECT 'Support'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Support');
+--INSERT INTO domain(value)
+--    SELECT 'All SAP domains'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='All SAP domains');
+--INSERT INTO domain(value)
+--    SELECT 'Testing'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Testing');
+--INSERT INTO domain(value)
+--    SELECT 'Business Integration'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Business Integration');
+--INSERT INTO domain(value)
+--    SELECT 'SAPS'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='SAPS');
+--INSERT INTO domain(value)
+--    SELECT 'SFDC'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='SFDC');
+--INSERT INTO domain(value)
+--    SELECT 'Campaign Management'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Campaign Management');
+--INSERT INTO domain(value)
+--    SELECT 'SEPG'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='SEPG');
+--INSERT INTO domain(value)
+--    SELECT 'Program Control Services'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Program Control Services');
+--INSERT INTO domain(value)
+--    SELECT 'Solution Architecture Team'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM domain WHERE domain.value='Solution Architecture Team');
+--
+--
+---- insert Fiscal Year
+--INSERT INTO fiscal_year(value)
+--    SELECT 'FY14'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM fiscal_year WHERE fiscal_year.value='FY14');
+--INSERT INTO fiscal_year(value)
+--    SELECT 'FY15'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM fiscal_year WHERE fiscal_year.value='FY15');
+--INSERT INTO fiscal_year(value)
+--    SELECT 'FY16'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM fiscal_year WHERE fiscal_year.value='FY16');
+--INSERT INTO fiscal_year(value)
+--    SELECT 'FY17'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM fiscal_year WHERE fiscal_year.value='FY17');
+--INSERT INTO fiscal_year(value)
+--    SELECT 'FY18'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM fiscal_year WHERE fiscal_year.value='FY18');
+--
+---- insert status
+--INSERT INTO status(value)
+--    SELECT 'OPEN'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM status WHERE status.value='OPEN');
+--INSERT INTO status(value)
+--    SELECT 'CLOSED'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM status WHERE status.value='CLOSED');
+--
+---- insert candidate_status
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'LinkedIn Message',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='LinkedIn Message');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Phone interview',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Phone interview');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'HR interview',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='HR interview');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Offer pending',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Offer pending');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Committed',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Committed');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Rejected by Accenture',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Rejected by Accenture');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Rejected by candidate',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Rejected by candidate');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Contract signed',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Contract signed');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Started',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Started');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Cancelled/No Demand',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Cancelled/No Demand');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'On Hold',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='On Hold');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Terminated',0
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Terminated');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'Approved Offer',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='Approved Offer');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'CoBI interview',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='CoBI interview');
+--INSERT INTO candidate_status(value,attention_required)
+--    SELECT 'PL approval stage',1
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM candidate_status WHERE candidate_status.value='PL approval stage');
+--
+--
+--
+--
+---- usersinsert rejection reason
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Personality'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Personality');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Hard skill'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Hard skill');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Salary Expectation'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Salary Expectation');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - COBI not passed'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - COBI not passed');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Rejected by PL - salary expection'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Rejected by PL - salary expection');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Rejected by PL - skillset'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Rejected by PL - skillset');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Salary expectation not in line with assessed level - offer not sent'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Salary expectation not in line with assessed level - offer not sent');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - No Current Demand in the field'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - No Current Demand in the field');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Insufficient language skills'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Insufficient language skills');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Accenture - Not reachable'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Accenture - Not reachable');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Candidate - Base Pay'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Base Pay');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Candidate - Bonuses'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Bonuses');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Candidate - Type work/work organization'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Type work/work organization');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Candidate - Mobility'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Mobility');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Candidate - Other'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Other');
+--INSERT INTO rejection_reason(value)
+--    SELECT 'Candidate - Accepted counter Offer- from current employer'
+--        FROM dual
+--        WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Accepted counter Offer- from current employer');
+--INSERT INTO rejection_reason(value)
+--     SELECT 'Candidate - Accepted offer another division of Accenture'
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Accepted offer another division of Accenture');
+--INSERT INTO rejection_reason(value)
+--     SELECT 'Candidate - Accepted offer from other employer'
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Accepted offer from other employer');
+--INSERT INTO rejection_reason(value)
+--     SELECT 'Candidate - Did not respond to the offer'
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Did not respond to the offer');
+--INSERT INTO rejection_reason(value)
+--     SELECT 'Candidate - Personal reasons'
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM rejection_reason WHERE rejection_reason.value='Candidate - Personal reasons');
+--
+--
+--INSERT INTO service_level_agreement(sla_name,value)
+--     SELECT 'HR Interview to CoBI',2
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM service_level_agreement WHERE service_level_agreement.sla_name='HR Interview to CoBI');
+--INSERT INTO service_level_agreement(sla_name,value)
+--     SELECT 'CoBI to Offer',2
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM service_level_agreement WHERE service_level_agreement.sla_name='CoBI to Offer');
+--INSERT INTO service_level_agreement(sla_name,value)
+--     SELECT 'Offer to Response',2
+--         FROM dual
+--         WHERE NOT EXISTS(SELECT * FROM service_level_agreement WHERE service_level_agreement.sla_name='Offer to Response');
+--
+--UPDATE `j2ee`.`candidate`
+--SET `candidate_status`=''
+--WHERE `candidate_status` IS NULL;
+--
+--
+--ALTER TABLE `j2ee`.`candidate`
+--CHANGE COLUMN `candidate_status` `candidate_status` VARCHAR(255) NOT NULL ;
+--
+--
+--UPDATE `j2ee`.`candidate`
+--SET `urgency`=''
+--WHERE `urgency` IS NULL;
+--
+--ALTER TABLE `j2ee`.`candidate`
+--CHANGE COLUMN `urgency` `urgency` VARCHAR(255) NOT NULL ;
+--
+--UPDATE `j2ee`.`candidate` SET `active_flag`=0b1 WHERE `active_flag` IS NULL;

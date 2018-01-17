@@ -6,4 +6,7 @@ import ro.stoicaVlad.Dreamcar.domain.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+
+    User findByUsername(String username);
+    User findById(Long id);
 }

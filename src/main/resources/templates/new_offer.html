@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.w3.org/1999/xhtml"
+      layout:decorator="layouts/default_layout">
+<head>
+    <title>New Bid</title>
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+<div id="content" layout:fragment="content">
+    <h3>Add new bid</h3>
+    <form action="#" th:action="@{/newbid}" th:object="${offer}" method="post">
+        <div class="row" style="margin-top: 10px;" sec:authorize="!hasRole('ROLE_ADMIN')">
+            <div class="col-md-4">
+                <label>Company name: </label>
+                <input type="text" th:field="*{name}" class="form-control input-md"/>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;" sec:authorize="!hasRole('ROLE_ADMIN')">
+            <div class="col-md-4">
+                <label>Item: </label>
+                <input type="text" th:field="*{item}" class="form-control input-md" />
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;" sec:authorize="!hasRole('ROLE_ADMIN')">
+            <div class="col-md-4">
+                <label>Price: </label>
+                <input type="text" th:field="*{price}" class="form-control input-md"/>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-4">
+                <label></label>
+                <input type="submit" class="btn btn-md btn-info btn-block" value="Save" />
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

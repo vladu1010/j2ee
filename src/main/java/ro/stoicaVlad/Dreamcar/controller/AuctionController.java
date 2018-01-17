@@ -9,21 +9,18 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.thymeleaf.util.DateUtils;
 import ro.stoicaVlad.Dreamcar.domain.Auction;
-import ro.stoicaVlad.Dreamcar.domain.Merchant;
 import ro.stoicaVlad.Dreamcar.domain.Pager;
 import ro.stoicaVlad.Dreamcar.service.IAuctionService;
 
-import java.util.Optional;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 @Controller
 public class AuctionController {
-
-    private static final int BUTTONS_TO_SHOW = 5;
-    private static final int INITIAL_PAGE = 0;
-    private static final int INITIAL_PAGE_SIZE = 5;
-    private static final int[] PAGE_SIZES = { 5, 10, 20 };
 
     @Autowired
     private IAuctionService auctionService;
@@ -35,27 +32,15 @@ public class AuctionController {
     }
 
     @PostMapping("/newauction")
-    public String save(@ModelAttribute Auction user, Model model) {
-        Auction savedAuction = auctionService.save(user);
+    public String save(@ModelAttribute Auction auction, Model model) {
+        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        Date date = new Date();
+        auction.setPublishDate(dateFormat.format(date));
+        date.setTime(date.getTime() + auction.getExpirationTime()*100);
+        auction.setExpirationDate(dateFormat.format(date));
+        Auction savedAuction = auctionService.save(auction);
         model.addAttribute("auction", savedAuction);
         return "redirect:/";
     }
 
-    @GetMapping("/auctions")
-    public String showAuctionsPage(Model model) {
-        int evalPageSize = INITIAL_PAGE_SIZE;
-        // Evaluate page. If requested parameter is null or less than 0 (to
-        // prevent exception), return initial size. Otherwise, return value of
-        // param. decreased by 1.
-        int evalPage = INITIAL_PAGE;
-
-        Page<Auction> auctions = auctionService.findAllPageable(new PageRequest(evalPage, evalPageSize, Sort.Direction.DESC, "id"));
-        Pager pager = new Pager(auctions.getTotalPages(), auctions.getNumber(), BUTTONS_TO_SHOW);
-
-        model.addAttribute("auctions", auctions);
-        model.addAttribute("selectedPageSize", evalPageSize);
-        model.addAttribute("pageSizes", PAGE_SIZES);
-        model.addAttribute("pager", pager);
-        return "auctions";
-    }
 }

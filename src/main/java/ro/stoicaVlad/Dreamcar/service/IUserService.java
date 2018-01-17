@@ -5,6 +5,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.transaction.annotation.Transactional;
 import ro.stoicaVlad.Dreamcar.domain.User;
 
+import java.util.List;
+
 public interface IUserService {
 
     User findOne(Long id);
@@ -13,4 +15,6 @@ public interface IUserService {
 
     @Transactional
     Page<User> findAllPageable(Pageable pageable);
+
+    List<User> listUsers();
 }

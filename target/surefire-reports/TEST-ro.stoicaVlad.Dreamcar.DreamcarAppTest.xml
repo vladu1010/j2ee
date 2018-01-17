@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ro.stoicaVlad.Dreamcar.DreamcarAppTest" time="0.094" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="ro.stoicaVlad.Dreamcar.DreamcarAppTest" time="0.061" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\Java\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\vladut.c.stoica\AppData\Local\Microsoft\WindowsApps;C:\Users\vladut.c.stoica\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\vladut.c.stoica\.windows-build-tools\python27;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\vladut.c.stoica\AppData\Local\Microsoft\WindowsApps;C:\Users\vladut.c.stoica\AppData\Roaming\npm;."/>
     <property name="maven.conf" value="C:\Program Files\Java\apache-maven-3.5.0\bin\../conf"/>
     <property name="javax.net.ssl.trustStore" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\security\cacerts"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -66,5 +66,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="contextLoads" classname="ro.stoicaVlad.Dreamcar.DreamcarAppTest" time="0.094"/>
+  <testcase name="contextLoads" classname="ro.stoicaVlad.Dreamcar.DreamcarAppTest" time="0.061"/>
 </testsuite>

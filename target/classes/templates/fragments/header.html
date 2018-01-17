@@ -23,6 +23,11 @@
                     Log In
                 </a>
             </div>
+            <div sec:authorize="!isAuthenticated()" class="logout">
+                <a href="#" th:href="@{/register}">
+                    Register
+                </a>
+            </div>
             <div class="login-info">
                 <em>
                    <span sec:authorize="isAuthenticated()">
@@ -42,19 +47,21 @@
                     </li>
                 </ul>
             </div>
-            <div class="logout">
-                <a href="#" th:href="@{/}">
-                    Home
-                </a>
-                <a href="#" th:href="@{/newuser}" sec:authorize="!hasRole('ROLE_ADMIN')">
-                    User
-                </a>
-                <a href="#" th:href="@{/auction}" sec:authorize="hasRole('ROLE_ADMIN')">
-                    New Auction
-                </a>
-                <a href="#" th:href="@{/auctions}" sec:authorize="hasRole('ROLE_ADMIN')">
-                    List auctions
-                </a>
+            <div class="logout" sec:authorize="isAuthenticated()">
+                <ul>
+                    <li class="cls"><a href="#" th:href="@{/}">
+                        Home
+                    </a></li>
+                    <li class="cls"><a href="#" th:href="@{/newbid}" sec:authorize="!hasRole('ROLE_ADMIN')">
+                        New Bid
+                    </a></li>
+                    <li class="cls"><a href="#" th:href="@{/auction}" sec:authorize="hasRole('ROLE_ADMIN')">
+                        New Auction
+                    </a></li>
+                    <li class="cls"><a href="#" th:href="@{/bids}">
+                        List auctions
+                    </a></li>
+                </ul>
             </div>
             <div class="user-inbox">
             </div>

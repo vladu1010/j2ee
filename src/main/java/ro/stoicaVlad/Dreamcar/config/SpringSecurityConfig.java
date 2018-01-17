@@ -5,13 +5,24 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.access.AccessDeniedHandler;
+import ro.stoicaVlad.Dreamcar.domain.User;
+import ro.stoicaVlad.Dreamcar.service.IUserService;
+
+import java.util.List;
 
 @Configuration
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private AccessDeniedHandler accessDeniedHandler;
+
+    @Autowired
+    private IUserService iUserService;
+
+    @Autowired
+    private UserDetailsService userDetailsService;
 
     /**
      * Configure access
@@ -41,10 +52,15 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+//        List<User> users = iUserService.listUsers();
+//
+//        for (User user : users) {
+//            auth.inMemoryAuthentication()
+//                    .withUser(user.getName()).password(user.getPassword()).roles("USER");
+//        }
         auth.inMemoryAuthentication()
-                .withUser("user").password("user").roles("USER")
-                .and()
                 .withUser("admin").password("admin").roles("ADMIN");
+        auth.userDetailsService(userDetailsService);
     }
 
 }
